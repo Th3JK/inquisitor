@@ -1,0 +1,24 @@
+name: inquisitor
+description: "Remote app control for Flutter - a kill switch, content flags and update gating driven by two endpoints."
+version: 0.1.0
+homepage:
+
+environment:
+  sdk: ^3.12.2
+  flutter: '>=3.3.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.6.0
+  shared_preferences: ^2.5.5
+  package_info_plus: ^10.2.1
+  url_launcher: ^6.3.2
+  meta: ^1.18.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
